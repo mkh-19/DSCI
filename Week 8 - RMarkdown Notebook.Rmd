@@ -1,0 +1,45 @@
+---
+title: "Week 8"
+author: "Mary Hughes"
+date: "2024-12-13"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Weekly Topics and Learnings
+
+## Week 1
+- Learned the steps of the data science process, which involve defining a problem, collecting data, analyzing it, and communicating results. This process provides a structured approach to solving data-related problems in any domain.
+- Practiced loading datasets into R using functions like read.csv() and managing file paths for easy access. Gained familiarity with handling different file formats such as CSV, Excel, or text files for importing data.  
+
+## Week 2
+- Explored data using summary statistics and visualizations like histograms and scatter plots to identify patterns and trends. These techniques help in understanding data distributions and relationships between variables.  
+- Learned data management techniques such as filtering rows, selecting columns, and creating new variables with dplyr. These skills enable efficient manipulation of datasets for analysis and modeling.  
+
+## Week 3
+- Studied the assumptions of linear regression models, including linearity, independence, and normality. Understanding these assumptions is crucial for building reliable models and interpreting results.
+- Built linear regression models in R using the lm() function and evaluated their performance using metrics like  R^2 and residual plots. Learned to make predictions based on these models and assess their accuracy.  
+
+## Week 4
+- Developed logistic regression models for binary classification problems using glm() with a binomial family. Explored the interpretation of coefficients, odds ratios, and probabilities derived from logistic regression models.  
+- Used logistic regression to make predictions on new data and evaluated performance using metrics like accuracy, precision, and recall. Learned how to handle imbalanced datasets and assess classification effectiveness.  
+
+## Week 5
+- Explored Generalized Linear Models (GLMs) as an extension of linear models to handle various response distributions, such as Poisson or binomial. Studied their flexibility in modeling non-normal data and their applications in fields like healthcare and marketing.  
+- Discussed specific GLM use cases, such as modeling count data (e.g., the number of customer visits) or proportions (e.g., conversion rates). These use cases illustrate how GLMs are tailored to different problem types.  
+
+## Week 6
+- Learned how to build and evaluate Decision Trees, which provide interpretable rules for making predictions. Discussed how Decision Trees can overfit data and methods to prune them for better generalization.  
+- Studied ensemble methods like Random Forest and Gradient Boosting Machines (GBM) to improve prediction accuracy. These techniques combine multiple trees to create robust models and are widely used in machine learning competitions.  
+
+## Week 7
+- Studied Cluster Analysis techniques like k-means clustering to group similar observations into distinct clusters. Learned how to interpret clustering results and evaluate the quality of clusters using metrics like silhouette scores.  
+- Learned Principal Component Analysis (PCA) for dimensionality reduction to summarize high-dimensional data into fewer components. PCA is useful for visualizing patterns, removing noise, and simplifying datasets before modeling.  
+
+## Week 8
+- Learned Git basics, including commands for version control like git add, git commit, and git push. These skills are essential for tracking changes and maintaining organized project versions.  
+- Started using GitHub and created a GitHub account. 
+
